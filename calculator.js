@@ -4,15 +4,15 @@ function makeCalculator() {
   var sum = 0;
   return {
     addSum: function(num) {
-      sum = sum + num;
+      sum += num;
       // return sum;
     },
     subtract: function(num) {
-      sum = sum - num;
+      sum -= num;
       // return sum;
     },
     times: function(num) {
-      sum = sum * num;
+      sum *= num;
       // return sum;
     },
     getNumber: function() {
