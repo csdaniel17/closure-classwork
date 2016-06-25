@@ -1,19 +1,15 @@
 //make a calculator using closure
-
 function makeCalculator() {
   var sum = 0;
   return {
     addSum: function(num) {
       sum += num;
-      // return sum;
     },
     subtract: function(num) {
       sum -= num;
-      // return sum;
     },
     times: function(num) {
       sum *= num;
-      // return sum;
     },
     getNumber: function() {
       return sum;

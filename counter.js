@@ -1,6 +1,6 @@
 // Make a counter using closure such that the actual counter variable is hidden
 function makeCounter() {
-  var counter = 0;
+  var counter = 1;
   function countFunction() {
     return counter++;
   }
